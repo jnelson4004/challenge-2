@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    background-color: firebrick;
+    width: auto;
+    padding: 2%;
+    border-style: solid;
+    margin-bottom: 2px;
+}
+
+header h1{
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+
+header nav{
+    text-align: right;
+}
+
+header ul{
+    list-style: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin-left: 2.5%;
+}
+
+header ul li a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: black;
+    text-decoration: none;
+}
+
+.hero{
+    height: 600px;
+    width: auto;
+    border-style: solid;
+    background-image: url(https://bringatrailer.com/wp-content/uploads/2023/01/1990_chevrolet_corvette-zr-1_Web-ZR1-Lead-1-27858-7rxqNj.jpg);
+    background-size: cover;
+    background-position: 0% 75%;
+}
+
+article{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: firebrick;
+    border-style: solid;
+}
+
+article h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+article p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+section h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+
+section h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+
+section p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+section a{
+    color: black;
+}
+
+.me{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.me card{
+    margin: 3%;
+}
+
+.burt img{
+    border-style: solid;
+    box-shadow: 7px 5px rgb(66, 0, 0);
+}
+
+.work{
+    background-color: darkslategrey;
+    border-style: solid;
+    padding: 3%;
+}
+
+.stationary{
+    display: block;
+    padding: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: firebrick;
+    border-style: solid;
+    box-shadow: 7px 5px rgb(66, 0, 0)
+}
+
+.movers{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1%;
+    margin-right: 1%;
+    justify-content:space-evenly;
+}
+
+.box{
+    float: left;
+    height: 400px;
+    display: block;
+    background-color: firebrick;
+    padding: 3%;
+    flex: 0 1 400px;
+    border-style: solid;
+    margin: 2%;
+    box-shadow: 7px 5px rgb(66, 0, 0);
+}
+
+footer{
+    height: 100px;
+    width: auto;
+    background-color: firebrick;
+    border-style: solid;
+    margin-top: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2%;
+}
+
+footer ul li{
+    display: inline-block;
+}
+
+footer .a{
+    font-weight: bolder;
+    font-size: large;
+    margin-right: 9%;
+}
+
+footer .b{
+    font-size: large;
+    margin-inline: 1%;
+}
